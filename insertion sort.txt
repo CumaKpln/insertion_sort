@@ -1,0 +1,15 @@
+Aşamalar:
+
+Adım 1: [22, 27, 16, 2, 18, 6]
+Adım 2: [22, 27, 16, 2, 18, 6]
+Adım 3: [16, 22, 27, 2, 18, 6]
+Adım 4: [2, 16, 22, 27, 18, 6]
+Adım 5: [2, 16, 18, 22, 27, 6]
+Adım 6: [2, 6, 16, 18, 22, 27]
+
+Sıralanmış dizi: [2, 6, 16, 18, 22, 27]
+
+Big-O gösterimi: Insertion Sort'un ortalama, en kötü ve en iyi durum karmaşıklığı O(n^2)'dir. Yani, n elemanlı bir diziyi sıralamak için en kötü durumda n^2 adım gerekmektedir.
+
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı, en kötü durum (worst case) Big-O karmaşıklığı olan O(n^2) kapsamına girer.
