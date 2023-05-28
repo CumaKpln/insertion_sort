@@ -13,3 +13,27 @@ Big-O gösterimi: Insertion Sort'un ortalama, en kötü ve en iyi durum karmaş�
 
 Time Complexity:
 Dizi sıralandıktan sonra 18 sayısı, en kötü durum (worst case) Big-O karmaşıklığı olan O(n^2) kapsamına girer.
+------------------------------------------------------------------------------------
+SORU:2
+
+Aşamalar:
+
+Adım 1: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+En küçük eleman: 2
+Yer değiştirme: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 2: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+En küçük eleman: 3
+Yer değiştirme: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+Adım 3: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+En küçük eleman: 4
+Yer değiştirme: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+Adım 4: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+En küçük eleman: 5
+Yer değiştirme: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+
+Dizinin ilk 4 adımı tamamlandığında elde edilen diziyi göstermektedir:
+
+[2, 3, 4, 5, 7, 9, 8, 15, 6]
